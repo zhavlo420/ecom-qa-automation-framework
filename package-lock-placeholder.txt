@@ -1,0 +1,1 @@
+Run `npm install` after extracting the project. npm will generate package-lock.json for reproducible installs.

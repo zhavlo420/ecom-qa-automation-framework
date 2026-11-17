@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-qa-automation-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly e-commerce UI and API automation framework using JavaScript and Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.saucedemo.com"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}
